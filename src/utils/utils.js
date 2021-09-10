@@ -5,7 +5,7 @@ const updateDocument = (collection, document, field) => {
 };
 
 const updateApplicationStatus = (collection, applicants) => {
-
+    
 };
 
 const validate = (applicant) => {

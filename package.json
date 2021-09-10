@@ -1,0 +1,24 @@
+{
+  "name": "cruzhacks-2022-application-status",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CruzHacks/cruzhacks-2022-application-status.git"
+  },
+  "author": "Alper deCarion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CruzHacks/cruzhacks-2022-application-status/issues"
+  },
+  "homepage": "https://github.com/CruzHacks/cruzhacks-2022-application-status#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
