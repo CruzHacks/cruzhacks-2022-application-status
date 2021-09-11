@@ -10,7 +10,7 @@ const updateApplicationStatus = (collection, applicants) => {
 const validate = (applicant) => {
     // keys are subject to change, as of now they are templates
     if (Object.keys(applicant).includes("applicant")) {
-        const doc_id = applicant.applicant_id;
+        const doc_id = applicant.applicant;
         if (Object.keys(applicant).includes("status")) {
             const status = applicant.status;
             if (["pending", "accepted", "rejected"].includes(status)) {
